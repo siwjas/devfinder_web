@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import radar from '../src/img/radar.png'
 
 import './global.css'
 import './Sidebar.css'
@@ -31,7 +32,14 @@ function App() {
   return (
     <div id="app">
       <aside>
-        <strong>Cadastre-se</strong>
+        <header>
+          <img src={ radar } alt={"DevRadar"}/> 
+          
+          <div className="form_title">
+            <strong>Cadastre-se</strong> 
+          </div>     
+        </header>      
+      
         <DevForm onSubmit={handleAddDev} />
       </aside>
 

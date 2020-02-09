@@ -1,9 +1,24 @@
+
 aside {
   width: 320px;
   background: #FFF;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
   border-radius: 2px;
   padding: 44px 20px;
+}
+
+aside header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+aside img {
+  width: 85px;
+  height: 95px;
+  border-radius: 5%;
+  margin-bottom: 10px;
 }
 
 aside strong {
@@ -14,7 +29,7 @@ aside strong {
 }
 
 aside form {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 aside form .input-block + .input-block {
